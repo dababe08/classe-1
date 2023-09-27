@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Czt;.MLuCXq?/mW7^iLB">mySprite</variable><variable type="KIND_SpriteKind" id="X:^^kwC*}CAz~wmSY8xu">Player</variable><variable type="KIND_SpriteKind" id="Gp/]{GUy9CH56#iJUM#[">Projectile</variable><variable type="KIND_SpriteKind" id="~0PWLS1s66a_?R}?QgoH">Food</variable><variable type="KIND_SpriteKind" id="kQO.0(tu%;+{o{.aNj2O">Enemy</variable></variables><block type="pxt-on-start" id="mCO4Ekocy,m@VEambPTi" x="39" y="12"><statement name="HANDLER"><block type="variables_set" id="p^2opar|$po9=G_hHfOu"><field name="VAR" id="Czt;.MLuCXq?/mW7^iLB">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Eq[~ve(oP6?WkO]^DS8K"><value name="img"><shadow type="screen_image_picker" id="+?NqNZ1_rjgH:]kc%aY%"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"+?NqNZ1_rjgH:]kc%aY%"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="_,RzpzEEQcuOm^:D7q:q"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="Hz(c,[4a7ub=iHB/}LG5"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="+D5%h}#TQ@JVr-T.*Mnf"><field name="VAR" id="Czt;.MLuCXq?/mW7^iLB">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="4=z74nx(_ogLLu8JDBz%"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Wp8:5A8m`z{c[9!Jy,}4"><field name="speed">100</field></shadow></value><next><block type="gameOver2" id="N/(Z,wjG|-KpB(cY#ldO"><value name="win"><shadow type="toggleWinLose" id="kv-o2Gv+wdCT-6~%c._$"><field name="win">false</field></shadow></value></block></next></block></next></block></statement></block></xml>
